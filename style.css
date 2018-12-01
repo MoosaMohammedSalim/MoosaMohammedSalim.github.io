@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html,body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.intro{
+		height: 100%;
+		width: 100%;
+		margin:auto;
+		background-image: url(sky.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		top: 0;
+		display: table;
+
+}
+.intro .inner{
+	display: table-cell;
+	vertical-align:middle ;
+	max-width:none ;
+	width: 100%;
+
+}
+.content{
+	text-align: center;
+	margin:0 auto;
+	max-width: 500%
+}
+.content h1{
+	color:white;
+	font-family: 'Raleway'sans-serif;
+	font-size: 500%;
+	text-shadow: 0px 0px 300px #000;
+}
+.btn{
+	border:3px solid #036A81;
+	font-family: 'Oswald';
+	border-radius: 9px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #036A81;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+a:hover{
+	color: #fff;
+	border:3px solid #fff;
+}
+p{
+
+	font-weight: initial;
+	font-family: 'sans-serif';
+	font-size: 20px;
+	line-height: 20px;
+}
+.para{
+	margin-top: 20px;
+	margin-left: 25px;
+	margin-right:25px;
+	margin-bottom: 20px;
+	border:1px solid black;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: orange;
+
+	
+}
+span{
+	font-size: 2rem;
+}
+@media screen and(max-width: 768px){
+	
+.content h1{
+		font-size: 250px;
+	}
+	.btn{
+		font-size: 110%;
+		padding: 7px 15px;
+	}
+	p{
+		font-size: 100%;
+		line-height: 160%; 
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
